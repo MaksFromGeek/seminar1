@@ -16,9 +16,10 @@ public class Ex2 {
             if (a > 0 && b < 0) {
                 k++;
             }
-            a=b;
+            a = b;
         }
         System.out.println("k : " + k);
         sc.close();
+
     }
 }
