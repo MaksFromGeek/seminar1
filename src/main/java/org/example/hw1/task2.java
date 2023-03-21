@@ -28,22 +28,3 @@ public class task2 {
         scanner.close();
     }
 }
-
-//    public static void main(String[] args) {
-//        Scanner scanner = new Scanner(System.in);
-//        System.out.println("Введите цифры каждую с новой строки, нажмите 0 для завершения: ");
-//        int sum = 0;
-//        int num = scanner.nextInt();
-//        while (num != 0) {
-//            int lastNum = num;
-//            num = scanner.nextInt();
-//            if (num != 0) {
-//                if (lastNum > 0 && num < 0) {
-//                    sum += lastNum;
-//                }
-//            }
-//        }
-//        System.out.printf("Сумма цифр: %d ", sum); // + sum
-//        scanner.close();
-//    }
-//}
