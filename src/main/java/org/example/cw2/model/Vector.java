@@ -46,9 +46,10 @@ public class Vector {
 
     /**
      * @return длину вектора
+     * по условию корень из квадратов
      */
     public double lengthVector() {
-        return Math.sqrt(this.x * this.x + this.y * this.y + this.z * this.z); // по условию корень из квадратов
+        return Math.sqrt(this.x * this.x + this.y * this.y + this.z * this.z);
     }
 
     /**

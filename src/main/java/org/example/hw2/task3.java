@@ -10,7 +10,8 @@ public class task3 {
      *         элементов
      */
     public static void main(String[] args) {
-        int[] array = exchangeNegativeElements(new int[]{1, 3, 4, 5, 8, 23, 45, 36, -3, -6, 2});
+        int[] array = exchangeNegativeElements(new int[]{1, 3, 4,
+                5, 8, 23, 45, 36, -3, -6, 2});
         for (var el : array) {
             System.out.print(el + " ");
         }
