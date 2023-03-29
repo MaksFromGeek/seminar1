@@ -1,5 +1,5 @@
 package org.example.hw3.task1;
-import org.example.hw3.task1.model.Items;
+import org.example.hw3.task1.model.Item;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -9,12 +9,12 @@ public class task1 {
      * среди товаров, название которых содержит «высший».
      */
     public static void main(String[] args) {
-        Items items1 = new Items("Яблоки высшего сорта", 100, 1);
-        Items items2 = new Items("Бананы обычного сорта", 200, 3);
-        Items items3 = new Items("Манго высшего сорта", 400, 2);
-        Items items4 = new Items("Кокосы низшего сорта", 300, 4);
+        Item items1 = new Item("Яблоки высшего сорта", 100, 1);
+        Item items2 = new Item("Бананы обычного сорта", 200, 3);
+        Item items3 = new Item("Манго высшего сорта", 400, 2);
+        Item items4 = new Item("Кокосы низшего сорта", 300, 4);
 
-        List<Items> listItems = new ArrayList<>();
+        List<Item> listItems = new ArrayList<>();
         listItems.add(items1);
         listItems.add(items2);
         listItems.add(items3);
