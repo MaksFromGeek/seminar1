@@ -1,7 +1,2 @@
-package org.example.cw4.task2;
-/**
- * 2. Построить однонаправленный список целых чисел. Найти сумму четных элементов списка.
- */
-
-public class task2 {
+package org.example.cw4.task2;public class task2 {
 }
