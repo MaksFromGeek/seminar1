@@ -3,10 +3,10 @@ package org.example.cw4.task2;
 import java.util.LinkedList;
 
 /**
- * 2. Построить однонаправленный список целых чисел. Найти сумму четных элементов списка.
+ *
  */
 
-public class task2 {
+public class task1and1 {
     public static void main(String[] args) {
         LinkedList<Integer> integerLinkedList = new LinkedList<>();
         for (int i = 0; i < 6; i++) {

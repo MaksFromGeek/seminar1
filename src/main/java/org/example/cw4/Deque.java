@@ -1,2 +1,4 @@
-package org.example.cw4;public class Deque {
+package org.example.cw4;
+
+public class Deque<T> {
 }
