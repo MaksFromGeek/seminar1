@@ -16,7 +16,7 @@ public class task1 {
         System.out.println(strCount);
     }
     private static Map<String, Integer> countWords(String input) {
-        Map<String, Integer> strCount = new HashMap<>();
+        Map<String, Integer> strCount = new HashMap<>(); // ключ - слово, значение - количество
         var strArray = input.toLowerCase()
                 .replace("—", "")
                 .replace(".", "")
