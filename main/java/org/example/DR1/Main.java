@@ -15,7 +15,7 @@ public class Main {
         HotDrinkMachine machineHotWater = new HotDrinkMachine();
         machineHotWater.addProduct(new HotDrink("hot water 1l", 300.0, 1, 40));
         machineHotWater.addProduct(new HotDrink("hot water 1,5l", 300.0, 2, 40));
-        machineHotWater.addProduct(new HotDrink("hot water 1l", 300.0, 2, 40));
+        machineHotWater.addProduct(new HotDrink("hot water 1l", 200.0, 2, 40));
         machineHotWater.addProduct(new HotDrink("ultra hot water 0,5l", 300.0, 2, 90));
         machineHotWater.addProduct(new HotDrink("hot water 3l", 200.0, 3, 50));
 
