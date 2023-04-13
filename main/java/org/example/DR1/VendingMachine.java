@@ -35,7 +35,7 @@ public class VendingMachine implements Machine {
         }
         return result;
     }
-
+    
     public ArrayList getProductByPrice(Double searchPrice) {
         ArrayList<Product> result = new ArrayList<Product>();
         for (Product item : list) {
